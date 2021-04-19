@@ -1,0 +1,21 @@
+.Modal {
+  position: absolute;
+  z-index: 500;
+  /* background-color: antiquewhite; */
+  background-color: #fff;
+  width: 70%;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px black;
+  left: 15%;
+  top: 30%;
+  box-sizing: border-box;
+  font-size: large;
+  border-radius: 30px;
+  padding: 2rem;
+}
+
+@media(min-height: 700px) {
+  .Modal {
+    position: relative;
+  }
+}

@@ -1,0 +1,15 @@
+.multiChoiceValues {
+    display: table;
+}
+.multiChoiceValues label {
+    display: table-cell;
+}
+
+.multiChoiceValues input {
+    display: table-cell;
+    margin-right: 5rem;
+}
+.container-newForm {
+    max-width: 80%;
+    margin: 2rem 0 0 5rem 
+}
